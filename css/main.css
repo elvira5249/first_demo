@@ -1,0 +1,350 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+#scoreTitle {
+  margin-bottom: 33px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  line-height: 34px;
+  font-weight: 300;
+  color: #333;
+  font-weight: 0;
+}
+
+
+#navigation li a:hover{
+	background-color: transparent;
+	color: rgb(0,174,239);
+}
+
+#navigation .active {
+	background-image: url('../img/active_arrow.png');
+	background-repeat: no-repeat;
+	background-position-x:right;
+}
+
+#navigation a {
+	margin-right: 8px;
+	font-family: "Open Sans";
+	font-size: 13,5px;
+	color: rgb(84,84,84);
+	height: 55px;
+	line-height: 55px
+	text-align: left;
+	text-indent: 17px;
+	border-bottom-style: solid;
+	border-bottom-color: rgb(225,225,225);
+	border-bottom-width: 1px;
+	display: block;
+	font-size: 0,9em;
+}
+
+#navigation .active a,
+#navigation .active a:hover{
+	background-color: rgb(0,174,239);
+	color: rgb(255,255,255);
+}
+
+.visited {
+	background-image: url('../img/visited_arrow.png');
+	background-position-x: right;
+	background-position-y: center;
+	background-size: initial;
+	background-repeat-x: no-repeat;
+	background-repeat-y: no-repeat;
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: auto;
+	margin: 0px;
+	padding:0px;
+}
+
+#profile {
+  margin-top: 35px;
+}
+
+#gauge{
+	padding-left: 30px;
+}
+
+#quote {
+  margin-top: 50px;
+}
+
+#blockQuote{
+	padding-left: 38px;
+	background-image: url('../img/pobrane.png');
+	background-position-x: left;
+	background-position-y: top;
+	background-size: initial;
+	background-repeat-x: no-repeat;
+	background-repeat-y: no-repeat;
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+}
+
+#quoteTitle{
+	color:rgb(84, 84, 84);
+	font-family: 'Raleway' , sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-left: 34px;
+}
+
+#quoteText{
+	margin-bottom: 10px;
+	margin-top: 38px;
+	color: rgb(144,144,144);
+	font-family: "Open Sans";
+	font-size: 16px;
+	line-height: 21px;
+	text-align: left;
+	list-style-position: outside;
+	-webkit-margin-after: 10px;
+	-webkit-font-smoothing:antialiased;
+}
+
+#quoteAuthor{
+	color: rgb(144,144,144);
+	margin-bottom: 10px;
+	font-family: "Open Sans";
+	font-size: 12px;
+	line-height: 21px;
+}
+
+.contact{
+	background-color: rgb(235,235,235);
+	border-bottom-color: rgb(224,224,224);
+}
+
+
+.tabTitle {
+  color: rgb(84, 84, 84);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight:normal;
+  text-transform: uppercase;
+  text-align: left;
+  margin-bottom:20px;
+  margin-top: 0px;
+}
+
+.btn{
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	font-family: Arial;
+	font-size: 16px;
+}
+
+.progressLine{
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+
+.progress{
+	height: 5px;
+	width: 100%;
+	background-color: rgb(225,225,225);
+	color: rgb(84,84,84);
+	margin-bottom:0px;
+}
+
+.completed{
+	color: rgb(84,84,84);
+	font-family: "Open Sans";
+	font-size: 13px;
+	margin-bottom: 8px;
+	margin-left: 15px;
+}
+
+ .thanks{
+	margin-bottom: 10px;
+	font-family: 'Open Sans';
+	font-size: 13px;
+	color: rgb(84,84,84);
+}
+
+.disabledLink {
+	pointer-events: none;
+}
+
+#navigation ul {
+	width: 100%
+}
+
+.form-group label,
+/*.checkbox label,*/
+#agreement ,
+option{
+	color: rgb(119,119,119);
+	cursor: default;
+	display: block;
+	font-family: "Open Sans";
+	font-size: 13px;
+	font-weight: normal;
+	margin-bottom: 4px;
+	text-align: left;
+	text-size-adjust:100%;
+	vertical-align: middle;
+	-webkit-font-smoothing:antialiased;
+}
+
+input .form-control,
+#userCountry{
+	background-color: rgb(255,255,255);
+	border-color: rgb(224,224,224);
+	border-bottom-left-radius: 3px;
+	border-radius: 3px;
+	border-width: 1px;
+	border-style:solid;
+	box-sizing:border-box;
+	display:block;
+	font-family:Arial;
+	font-size:14px;
+	height:38px;
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	padding-bottom:10px;
+	padding-left:6px;
+	padding-right:6px;
+	padding-top:10px;
+	width:100%;
+}
+
+.number{
+	color: rgb(35,129,190);
+
+}
+
+ .question{
+	color: rgb(84,84,84);
+	font-family:'Open Sans';
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.form-check-label{
+	color: rgb(84,84,84);
+	cursor: pointer;
+	font-size: 14px;
+	font-family: 'Open Sans';
+	font-weight: normal;
+	line-height: 18px;
+	min-height: 20px;
+	font-weight: normal;
+	margin:0px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+.answer{
+	padding-left: 10px;
+	text-align: left;
+	font-size: 14px;
+	color: rgb(84,84,84);
+	margin-left: 16px;
+	display: block;
+}
+
+input[type=radio],
+input[type=checkbox] {
+    float: left;
+}
+
+
+.questionFill{
+	padding-bottom: 20px;
+}
+
+.value{
+	background-color:rgb(255,255,255);
+	border-color: rgb(193,193,193);
+	border-radius: 3px;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 10px;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 10px;
+	width: 50%;
+}
+
+.text-currency{
+	color: rgb(84,84,84);
+	font-family:"Open Sans";
+	font-size: 15px;
+	padding-right: 4px;
+	text-align: center;
+	width: 30px;
+}
+
+.doneTest{
+	color: rgb(84,84,84);
+	font-family: "Open Sans";
+	font-size: 13px;
+}
+
+input[type='radio'] {
+  -webkit-appearance:none;
+  width:15px;
+  height:15px;
+  border:1px solid darkgray;
+  border-radius:50%;
+  outline:none;
+  box-shadow:0 0 5px 0px #cccccc;
+}
+
+input[type='radio']:hover {
+box-shadow:0 0 5px 0px #60cec3 inset;
+}
+
+
+input[type='radio']:before {
+  content:'';
+  display:block;
+  width:60%;
+  height:60%;
+  margin: 20% auto;
+  border-radius:50%;
+}
+
+input[type='radio']:checked:before {
+  background:#42ade9;
+}
+
+
+.btnBack{
+	margin-right: 20px;
+	padding-right:14px;
+	padding-left: 0px;
+	padding-bottom: 14px;
+	padding-top: 14px;
+	color:#1478b9;
+	display: block;
+	float: left;
+	font-family: "Open Sans";
+	font-size: 16px;
+	text-decoration-style: solid;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 1205px) {
+	#navList a {
+		font-size: 13px;
+		text-indent: 0px;
+	}
+}
